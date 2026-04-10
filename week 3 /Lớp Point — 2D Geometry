@@ -1,0 +1,13 @@
+import math 
+class Point: 
+    def __init__(self, x, y):
+       selff.__x = x 
+       self.__y = y 
+    def distance(self, other):
+        return math.hypot(self.x - other.x, self.y - other.y) #hypot : cau lenh tinh canh huyen 
+x = int(input("Enter Bx: "))
+y = int(input("Enter By: "))
+B = Point(x, y)
+C = Point(-B.x, -B.y)
+print("khoang cach tu diem A den diem B la:", A.distance(B))
+print("khoang cach tu diem B den diem O la:",B.distance(O))
