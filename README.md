@@ -1,0 +1,4 @@
+  THÔNG TIN SINH VIÊN 
+  HỌ & TÊN : NGUYỄN MINH TRÂM 
+  MÃ SINH VIÊN : 25112199 
+  LỚP : BCSE2025 
