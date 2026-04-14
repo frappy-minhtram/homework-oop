@@ -1,1 +1,32 @@
+class Hero:
+    def __init__(self, name, power, weapon):
+        self.name = name 
+        self.power = power
+        self.weapon = weapon
+        
+list_sn = []
 
+total = int(input("** Tổng số siêu nhân trong danh sách: **"))
+
+for i in range(total):
+    name = input("Tên siêu nhân: ")
+    power = input("Sức mạnh: ")
+    weapon = input("Vũ khí lợi hại: ")
+    newHero = Hero(name, power, weapon)
+    list_sn.append(newHero)
+    
+    def hero(list_sn):
+        ten_hero_xoa =int("Tên siêu nhân cần xóa trong list là:  ")
+        
+        for sn in list_sn:
+            if sn.name == ten_hero_xoa:
+                list_sn.remove(sn)
+                print("đã xóa thành công!")
+                return 
+            else:
+                print("không tìm thấy siêu nhân cần xóa!")
+for sn in list_sn:
+    print("Tên của siêu nhân :", sn.name)
+    print("Sức mạnh:", sn.power)
+    print("Vũ khí:", sn.weapon)
+        
